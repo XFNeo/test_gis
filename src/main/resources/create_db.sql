@@ -1,0 +1,6 @@
+DROP TABLE users IF EXISTS;
+
+CREATE TABLE users (
+  name  VARCHAR(20) PRIMARY KEY,
+  last_name  VARCHAR(30)
+);
